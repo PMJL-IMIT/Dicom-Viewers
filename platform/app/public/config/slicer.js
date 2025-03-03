@@ -24,9 +24,9 @@ window.config = {
       configuration: {
         friendlyName: 'DCM4CHEE',
         name: 'DCM4CHEE',
-        wadoUriRoot: 'http://172.22.26.156:8080/dicom',
-        qidoRoot: 'http://172.22.26.156:8080/dicom',
-        wadoRoot: 'http://172.22.26.156:8080/dicom',
+        wadoUriRoot: 'http://localhost:2016/dicom',
+        qidoRoot: 'http://localhost:2016/dicom',
+        wadoRoot: 'http://localhost:2016/dicom',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadouri',
         thumbnailRendering: 'wadouri',
