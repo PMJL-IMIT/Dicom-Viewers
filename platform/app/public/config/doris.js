@@ -1,6 +1,6 @@
 /** @type {AppTypes.Config} */
 window.config = {
-  routerBasename: '/',
+  routerBasename: '/viewer',
   showStudyList: true,
   extensions: [],
   modes: [],
@@ -22,11 +22,11 @@ window.config = {
       namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
       sourceName: 'dicomweb',
       configuration: {
-        friendlyName: 'DCM4CHEE',
-        name: 'DCM4CHEE',
-        wadoUriRoot: 'http://172.22.215.81:21333/dicom',
-        qidoRoot: 'http://172.22.215.81:21333/dicom',
-        wadoRoot: 'http://172.22.215.81:21333/dicom',
+        friendlyName: 'Doris',
+        name: 'Doris',
+        wadoUriRoot: '/dicom',
+        qidoRoot: '/dicom',
+        wadoRoot: '/dicom',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadouri',
         thumbnailRendering: 'wadouri',
